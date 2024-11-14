@@ -25,6 +25,10 @@ The system includes:
 - Evaluation tools to measure model performance using metrics like accuracy and confusion matrices.
 - A drag-and-drop **Gradio interface** for real-time image classification.
 
+![detection](https://github.com/user-attachments/assets/5e78bb3a-813e-400a-ab10-211958b45fd7)
+![Screenshot 2024-11-14 212252](https://github.com/user-attachments/assets/87e2f089-5768-48c8-8297-8ef1e5142e05)
+
+
 ## Features
 - **Training Pipeline**: Includes data loading, augmentation, and model training scripts.
 - **Evaluation Metrics**: Outputs classification accuracy, confusion matrix, and detailed classification reports.
