@@ -54,6 +54,9 @@ The system includes:
 
 ## Project Structure
 
+The project files and directories are organized as follows:
+
+```plaintext
 Deepfake_Detection_Project/
 │
 ├── data/                         # Dataset folder
@@ -80,3 +83,4 @@ Deepfake_Detection_Project/
 ├── app.py                        # Gradio interface for real-time predictions
 ├── README.md                     # Documentation for the project
 └── requirements.txt              # Python dependencies
+
