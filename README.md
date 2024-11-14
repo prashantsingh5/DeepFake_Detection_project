@@ -84,3 +84,71 @@ Deepfake_Detection_Project/
 ├── README.md                     # Documentation for the project
 └── requirements.txt              # Python dependencies
 
+## Usage
+
+### 1. Training the Model
+
+Run the following script to train the model:
+
+```bash
+python src/train.py
+```
+
+- Input: Dataset organized into real_images and fake_images.
+- Output: The trained model saved as models/final_model.pth.
+
+### 2. Evaluating the Model
+
+Evaluate the trained model on the validation set:
+
+```bash
+python src/evaluate.py
+```
+
+**Output:**
+- Confusion matrix saved as results/evaluation/confusion_matrix.png.
+- Detailed classification report printed to the console.
+
+  
+### 3. Using the Gradio Interface
+
+Launch the Gradio app for real-time predictions:
+
+```bash
+python app.py
+```
+
+Open the app in your browser at: http://127.0.0.1:7860. Drag and drop an image or upload it to classify it as Real or Fake.
+
+## Results
+
+- **Confusion Matrix:** Saved in results/evaluation/confusion_matrix.png.
+- **Classification Report:** Includes precision, recall, F1-score, and accuracy metrics for the validation set.
+
+### example result ###
+![confusion_matrix](https://github.com/user-attachments/assets/104767be-bfaf-4417-9d05-996eba55fe83)
+
+## Dataset Organization
+
+```plaintext
+data/
+├── real_images/
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   └── ...
+└── fake_images/
+    ├── img1.jpg
+    ├── img2.jpg
+    └── ...
+```
+
+## Technologies Used
+- **PyTorch:** Deep learning framework for training the classifier.
+- **Torchvision:** Pre-trained models and transformations.
+- **Gradio:** Interactive user interface for predictions.
+- **Matplotlib & Seaborn:** Visualization of results.
+- **Scikit-learn:** Evaluation metrics and confusion matrix generation.
+
+## Author
+Prashant singh
+Contact: [prashantsingha96@gmail.com]
