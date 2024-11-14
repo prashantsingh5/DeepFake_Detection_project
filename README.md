@@ -14,9 +14,6 @@ This project aims to detect deepfake images of knee osteoarthritis scans by clas
 - [Results](#results)
 - [Dataset Organization](#dataset-organization)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
-- [Contributing](#contributing)
 - [Author](#author)
 
 ## Project Overview
