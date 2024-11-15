@@ -151,5 +151,7 @@ data/
 - **Scikit-learn:** Evaluation metrics and confusion matrix generation.
 
 ## Author
+
 Prashant singh
+
 Contact: [prashantsingha96@gmail.com]
