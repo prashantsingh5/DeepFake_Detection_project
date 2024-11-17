@@ -84,6 +84,7 @@ Deepfake_Detection_Project/
 ├── app.py                        # Gradio interface for real-time predictions
 ├── README.md                     # Documentation for the project
 └── requirements.txt              # Python dependencies
+```
 
 ## Usage
 
